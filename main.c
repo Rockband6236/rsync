@@ -20,6 +20,7 @@
  * with this program; if not, visit the http://fsf.org website.
  */
 
+#include "stdio.h"
 #include "rsync.h"
 #include "inums.h"
 #include "ifuncs.h"
@@ -1709,6 +1710,9 @@ static void unset_env_var(const char *var)
 
 int main(int argc,char *argv[])
 {
+
+	printf("I was here!\n");
+
 	int ret;
 
 	raw_argc = argc;

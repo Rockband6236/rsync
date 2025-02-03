@@ -1,4 +1,4 @@
-WHAT IS RSYNC?
+WHAT IS RSYNC!
 --------------
 
 Rsync is a fast and extraordinarily versatile file copying tool for
